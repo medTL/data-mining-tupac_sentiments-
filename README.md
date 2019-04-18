@@ -11,3 +11,7 @@ R packages:<br/>
 -ggplot2 <br/>
 -geniusr <br/>
 -plumber <br/>
+
+```bash
+$ npm start
+```
