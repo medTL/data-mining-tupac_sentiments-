@@ -1,33 +1,84 @@
-.App {
-  text-align: center;
+body{
+  background-color: #ECF3E6;
+  font-family: Palatino;
+  font-size: 1.125em;
+  text-align: justify;
+}
+i{
+  margin-right: 10px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+#hed{
+  margin-top: 60px;
+}
+#songname{
+  margin-bottom: 10px;
+  padding: 35px;
+  text-overflow: clip;
+}
+#songname2{
+  margin-bottom: 10px;
+  margin-left: 80px;
+  padding: 20px;
+  text-overflow: clip;
+}
+#songImage{
+  width: 80px;
+  height: 80px;
+ position: absolute;
+ z-index: 1;
+}
+#songheader{
+  display: grid;
+ 
+  grid-template-columns: repeat(50%,50%);
+  grid-template-rows: repeat(1,50%)
+
+  
+}
+#songlyrics{
+  margin-top: 50px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile{
+  width: 100%;
+  height: 250px;
+}
+.jumbotron{
+
+  width: 100%;
+  z-index: 0;
+    height: 100%;
+    min-width: 100%;
+  background-image: url(tp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ #ps-text{
+   padding: 10px;
+   position: relative;
+   top: 100%;
+   left: 20%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+ }
+
+.artist{
+  position: absolute;
+  z-index: 1;
+  left: 20%;
+  top:25%;
+  width:200px;
+  height: 200px;
+  border: solid 2px #ffff;
+  border-radius: 50%;
+  background-image: url(https://images.genius.com/b07c835641eedf27637bed3244e975ab.362x362x1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
