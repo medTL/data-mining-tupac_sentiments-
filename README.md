@@ -4,7 +4,7 @@ Data mining project that analyse tupac lyrics sentiments
 ## Requirements
 
 Node.js & npm &nbsp;
-R /n
+R &nbsp;
 R packages:&nbsp;
 -dplyr &nbsp;
 -tidytext &nbsp;
