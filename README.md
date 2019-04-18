@@ -12,6 +12,3 @@ R packages:<br/>
 -geniusr <br/>
 -plumber <br/>
 
-```bash
-$ npm start
-```
