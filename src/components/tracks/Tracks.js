@@ -23,19 +23,25 @@ import Search from './Search';
          value =>{
           const {track_list} = value;
           
-          const {searchvalue} = this.state;
+          let {searchvalue} = this.state;
           let searchedtrack = []
            if(track_list === undefined || track_list.lenght === 0 ){
               return <Spinner/>
            }else if (searchvalue != ""){
+             searchvalue = searchvalue.toLowerCase();
              let arr = []
              let reg = new RegExp('\\b' + searchvalue + '\\b')
+  
              for(let i = 0 ;i< track_list.length;i++){
                let it = track_list[i]
-               if(reg.test(it.song_name) || reg.test(it.song_name.toLowerCase() || reg.test(it.song_name.toUpperCase()))){
-                 console.log(true)
+               
+             //  if(reg.test(it.song_name) || reg.test(it.song_name.toLowerCase() || reg.test(it.song_name.toUpperCase()))){
+                if(reg.test(it.song_name.toLowerCase()) ){
+             console.log(true)
                  arr.push(it);
 
+               }else{
+                 console.log(false);
                }
              }
             console.log(arr);
