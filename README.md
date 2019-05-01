@@ -27,7 +27,7 @@ to start the server run this commands in a terminal while you are in the R-serve
   //the server is now running
 ```
 5)install React app packages using <b>npm install</b> commande from another terminal </br>
-6)start the react app using the <b>npm start</b> commande 
+6)start the react app using the <b>npm start</b> commande </br>
 7)if you have problem with the react app not fetching data install chrome extension <a href="https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en">Allow-control Allow origin </a> </br> which disables chromes CORS checking security
 
 
