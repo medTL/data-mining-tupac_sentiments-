@@ -26,6 +26,6 @@ to start the server run this commands in a terminal while you are in the R-serve
   source('plumb.R') 
   //the server is now running
 ```
-5) start the react app using the <b>npm start</b> commande 
+5)start the react app using the <b>npm start</b> commande 
 
 
