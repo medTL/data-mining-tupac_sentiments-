@@ -12,3 +12,9 @@ R packages:<br/>
 -geniusr <br/>
 -plumber <br/>
 
+## Setup
+1)install node.js with npm 
+2)install R and it's packages
+3)Make and an account in genuis.com API and get the access token 
+4)start the R server:
+
