@@ -13,8 +13,19 @@ R packages:<br/>
 -plumber <br/>
 
 ## Setup
-1)install node.js with npm 
-2)install R and it's packages
-3)Make and an account in genuis.com API and get the access token 
-4)start the R server:
+1)install node.js with npm </br>
+2)install R and it's packages </br>
+3)Make and an account in genuis.com API and get the access token </br>
+4)start the R server:</br>
+to start the server run this commands in a terminal while you are in the R-server</br>
+--R
+  R </br>
+  library(geniusr)</br>
+  genius_token()</br>
+  //enter the access Token </br>
+  source('plumb.R') </br>
+  //the server is now running
+--R
+5) start the react app using the <b>npm start</b> commande 
+
 
