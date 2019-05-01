@@ -4,15 +4,15 @@ Data mining project that analyse tupac lyrics sentiments
 ## Requirements
 
 
-Node.js & npm
-R
-R packages:
--dplyr
--tidytext
--purrr
--ggplot2
--geniusr
--plumber
+Node.js & npm</br>
+R</br>
+R packages:</br>
+-dplyr</br>
+-tidytext</br>
+-purrr</br>
+-ggplot2</br>
+-geniusr</br>
+-plumber</br>
 
 
 
