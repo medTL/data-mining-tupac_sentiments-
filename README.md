@@ -20,10 +20,10 @@ R packages:<br/>
 to start the server run this commands in a terminal while you are in the R-server</br>
 ```
   R </br>
-  library(geniusr)</br>
-  genius_token()</br>
-  //enter the access Token </br>
-  source('plumb.R') </br>
+  library(geniusr)
+  genius_token()
+  //enter the access Token 
+  source('plumb.R') 
   //the server is now running
 ```
 5) start the react app using the <b>npm start</b> commande 
