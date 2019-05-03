@@ -19,7 +19,7 @@ function(){
 
 #* @get /songs
 function(){
-  tupacsongs<-readRDS("C:/Users/hp/Desktop/tupacsongs.raw.rdat")
+  tupacsongs<-readRDS("./tupacsongs.raw.rdat")
   
   return(tupacsongs)
   
