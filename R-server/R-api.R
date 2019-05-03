@@ -26,7 +26,7 @@ function(){
 }
 #* @get /songs/<id>
 function(id){
-  tupacsongs<-readRDS("C:/Users/hp/Desktop/tupacsongs.raw.rdat")
+  tupacsongs<-readRDS("./tupacsongs.raw.rdat")
   song<-subset(tupacsongs,tupacsongs$song_id==id)
 }
 
