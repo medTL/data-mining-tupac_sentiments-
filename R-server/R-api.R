@@ -8,7 +8,8 @@ library(plumber)
 
 
 tupacid<-59
-graph
+
+bing <- get_sentiments("bing")
 
 #* @get /artist
 function(){
@@ -19,14 +20,14 @@ function(){
 
 #* @get /songs
 function(){
-  tupacsongs<-readRDS("./tupacsongs.raw.rdat")
+  tupacsongs<-readRDS("tupacsongs.rds")
   
   return(tupacsongs)
   
 }
 #* @get /songs/<id>
 function(id){
-  tupacsongs<-readRDS("./tupacsongs.raw.rdat")
+  tupacsongs<-readRDS("tupacsongs.rds")
   song<-subset(tupacsongs,tupacsongs$song_id==id)
 }
 
@@ -52,7 +53,7 @@ function(id){
     # count negative / positive words
     count(word, sentiment, sort = TRUE) %>%
     ungroup()
-  graph<- sentiment %>%
+  graph<<- sentiment %>%
     group_by(sentiment) %>%
     top_n(10) %>%
     ungroup() %>%
